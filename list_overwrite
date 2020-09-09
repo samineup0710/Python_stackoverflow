@@ -1,0 +1,20 @@
+#coursera challenges:
+PROBLEM
+Challenge Now do the same as in the previous problem, but do not create a new list. Overwrite the list numbs so that each of the original numbers are increased by 5.
+
+
+
+SOLUTION
+numbs = [5, 10, 15, 20, 25] #given list.
+hell = []         #create a new empty list.
+for i in numbs:         #iterate over oldlist and increase items by +5.
+    i = i +5
+    hell.append(i)     #append to newlist.
+print(hell)           
+numbs = hell          # assign newlist to old.
+print(numbs)           #this overwrite the old list contents.
+
+
+OUTPUT
+[10, 15, 20, 25, 30]
+[10, 15, 20, 25, 30]

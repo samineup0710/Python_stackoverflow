@@ -1,0 +1,11 @@
+PROBLEMS:
+Assign an empty string to the variable output. Using the range function, write code to make it so that the variable output has 35 a s inside it (like "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"). Hint: use the accumulation pattern!
+
+SOLUTIONS:
+output = ""
+acc = 0                        #create acc 
+for i in range(35):             
+    acc += 1      
+    output="a"*acc              add into output string "a" and multiply 
+print(output)
+    
